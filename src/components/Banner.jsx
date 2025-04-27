@@ -5,11 +5,11 @@ import bannerImage from "../assets/bannerImage.png";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#EBE3E3] overflow-hidden ">
+      <div className="bg-[#EBE3E3] ">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center">
              {/* left */}
              <div className="flex flex-col  p-8 md:pl-10 col-span-1 md:col-span-6 space-y-6 ">
-            <h1 className="text-3xl md:text-4xl lg:text-4xl leading-tight font-extrabold ">
+            <h1 className="text-3xl md:text-4xl  font-extrabold ">
               Sell online to 14 Cr+ customers at{" "}
               <span className="text-[#5F0623]">0% Commission</span>
             </h1>
@@ -34,13 +34,11 @@ const Banner = () => {
           </div>
           {/* right */}
           <div className="bg-[#450000] col-span-1 md:col-span-6 rounded-tl-full h-full relative">
-            <div className="relative md:h-[530px] ">
+            <div className="relative md:h-[540px] ">
               <img
                 src={bannerImage}
                 alt="Banner"
-                fill
-                className="object-contain"
-                priority
+                className="object-fit"               
               />
             </div>
           </div>
