@@ -6,8 +6,8 @@ import { FaCirclePlay } from "react-icons/fa6";
 
 const Experience = () => {
   return (
-    <div className="container mx-auto md:pb-16 md:pt-0 md:px-4 p-8">
-      <h1 className="md:text-center mb-4 text-[#5F0623] font-bold text-lg md:text-4xl md:my-10">
+    <div className="container mx-auto md:pb-16 md:pt-0 md:px-0 p-8">
+      <h1 className="md:text-center mb-4 text-[#5F0623] font-extrabold text-lg md:text-4xl md:my-10">
         Experiences suppliers love to talk about
       </h1>
 

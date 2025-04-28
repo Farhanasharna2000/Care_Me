@@ -5,6 +5,7 @@ import CareMeInfo from './components/CareMeInfo';
 import WhyLove from './components/WhyLove';
 import ExclusiveOffer from './components/ExclusiveOffer';
 import Experience from './components/Experience';
+import HowItWorks from './components/HowItWorks';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
   <WhyLove/>
   <ExclusiveOffer/>
   <Experience/>
+  <HowItWorks/>
     </div>
   );
 };
