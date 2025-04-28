@@ -19,7 +19,7 @@ const Banner = () => {
                 Become a Care Me seller and grow your business across Bangladesh
               </p>
               <p>
-                <span className="bg-[#5F0623] text-white font-bold px-3 py-1 rounded-lg mr-2">
+                <span className="bg-[#5F0623] text-white font-bold px-3 py-1 rounded-md mr-2">
                   New!
                 </span>
                 Don’t have a GSTIN? You can still sell on Meesho.{" "}
@@ -29,16 +29,16 @@ const Banner = () => {
               </p>
             </div>
 
-            <div class="flex rounded-md shadow-sm md:w-9/12">
+            <div className="flex rounded-md shadow-sm md:w-9/12">
               <input
                 type="text"
-                class="flex-1 block w-full min-w-0 rounded-none rounded-l-md border-0 py-1.5 px-5  bg-white
+                className="flex-1 block w-full min-w-0 rounded-none rounded-l-md border-0 py-1.5 px-5  bg-white
                  placeholder:text-gray-300 "
                 placeholder="Enter Your Mobile Number"
               />
               <button
                 type="button"
-                class="relative -ml-px inline-flex items-center gap-x-1.5 rounded-r-md bg-[#5F0623] hover:bg-[#450000]
+                className="relative -ml-px inline-flex items-center gap-x-1.5 rounded-r-md bg-[#5F0623] hover:bg-[#450000]
                  px-6 py-2 text-xs md:text-base font-semibold text-white shadow-sm "
               >
                 Start Selling
