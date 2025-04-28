@@ -1,5 +1,5 @@
 import { AiFillSound } from "react-icons/ai";
-import { FaRegMoneyBill1 } from "react-icons/fa6";
+import {  PiMoneyFill } from "react-icons/pi";
 
 const ExclusiveOffer = () => {
   return (
@@ -19,7 +19,7 @@ const ExclusiveOffer = () => {
             <div className="flex flex-col md:flex-row gap-6 justify-center w-full">
               {/* Card 1 */}
               <div className="flex-1 flex flex-col bg-white border border-gray-200 p-6 rounded-lg shadow-sm md:w-1/2 lg:relative lg:-top-16">
-                <AiFillSound className="text-4xl text-[#5F0623] -rotate-45 mb-2" />
+                <AiFillSound className="text-5xl text-[#5F0623] -rotate-45 mb-2" />
                 <h2 className="text-xl md:text-2xl font-semibold mb-2">
                   Free catalog visibility of ₹600
                 </h2>
@@ -32,7 +32,7 @@ const ExclusiveOffer = () => {
 
               {/* Card 2 */}
               <div className="flex-1 flex flex-col bg-white border border-gray-200 p-6 rounded-lg shadow-sm md:w-1/2 lg:relative lg:top-16">
-                <FaRegMoneyBill1 className="text-4xl text-[#5F0623] mb-2" />
+                <PiMoneyFill className="text-5xl text-[#5F0623] mb-2" />
                 <h2 className="text-xl md:text-2xl font-semibold mb-2">
                   Free catalog visibility of ₹600
                 </h2>
