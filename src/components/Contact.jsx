@@ -1,5 +1,5 @@
 import React from "react";
-import { CiMail } from "react-icons/ci";
+import { IoIosMail } from "react-icons/io";
 
 const Contact = () => {
   return (
@@ -21,7 +21,7 @@ const Contact = () => {
 
           <div className="flex items-start gap-4">
             <div className="py-2 px-4 bg-[#5F0623] rounded-lg">
-              <CiMail className="text-white text-2xl md:text-3xl" />
+            <IoIosMail className="text-white text-2xl md:text-3xl" />
             </div>
             <div>
               <p className="text-base md:text-lg text-[#5F0623] font-medium">
