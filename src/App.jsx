@@ -7,6 +7,7 @@ import ExclusiveOffer from './components/ExclusiveOffer';
 import Experience from './components/Experience';
 import HowItWorks from './components/HowItWorks';
 import Popular from './components/Popular';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
   <Experience/>
   <HowItWorks/>
   <Popular/>
+  <Contact/>
     </div>
   );
 };
