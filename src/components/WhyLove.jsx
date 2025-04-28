@@ -2,9 +2,11 @@ import React from 'react';
 import { FaHandHoldingWater, FaHandshake, FaLevelUpAlt } from "react-icons/fa";
 import { LuArrowUpRight } from "react-icons/lu";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
+
 const WhyLove = () => {
     return (
        <div className="flex flex-col md:flex-row place-items-center md:gap-10 gap-5 bg-white container mx-auto md:p-0 p-8">
+
        {/* Left side */}
        <div className="md:w-1/2 ">
          <h2 className="text-lg md:text-4xl font-extrabold text-[#5F0623] mb-2 md:mb-4">
@@ -50,8 +52,7 @@ const WhyLove = () => {
                  </div>
                </div>
                <div className="h-[1px] bg-gray-300 w-full"></div>
-
-      
+     
                <div className="flex  py-5 gap-x-7">
                  <div>
                    <FaLevelUpAlt className="text-3xl md:text-4xl  text-[#5F0623]" />
