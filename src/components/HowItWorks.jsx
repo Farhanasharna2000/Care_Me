@@ -54,7 +54,7 @@ const HowItWorks = () => {
               
               {/* Line after number (only on desktop) */}
               {index !== steps.length - 1 && (
-                <div className="hidden md:block absolute top-8 right-[-4rem] w-44 h-[2px] bg-[#5F0623]" />
+                <div className="hidden md:block absolute top-8 right-[-2rem] left-[5.5rem] w-32 h-[2px] bg-[#5F0623]" />
               )}
             </div>
 

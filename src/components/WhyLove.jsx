@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaHandHoldingWater, FaHandshake, FaLevelUpAlt } from "react-icons/fa";
+import { FaFileInvoiceDollar, FaHandHoldingWater, FaHandshake, FaLevelUpAlt } from "react-icons/fa";
+import { GiCheckMark } from 'react-icons/gi';
+import { ImStatsBars2 } from 'react-icons/im';
 import { LuArrowUpRight } from "react-icons/lu";
-import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
 const WhyLove = () => {
     return (
@@ -39,7 +40,7 @@ const WhyLove = () => {
 
             <div className="flex  py-5 gap-x-7">
                  <div>
-                   <RiMoneyDollarCircleFill className="text-3xl md:text-4xl  text-[#5F0623]" />
+                   <FaFileInvoiceDollar className="text-3xl md:text-4xl  text-[#5F0623]" />
                  </div>
                  <div>
                    <h1 className="font-bold text-lg md:text-2xl mb-3">
@@ -55,7 +56,7 @@ const WhyLove = () => {
      
                <div className="flex  py-5 gap-x-7">
                  <div>
-                   <FaLevelUpAlt className="text-3xl md:text-4xl  text-[#5F0623]" />
+                 <ImStatsBars2 className="text-3xl md:text-4xl  text-[#5F0623]" />
                  </div>
                  <div>
                    <h1 className="font-bold text-lg md:text-2xl mb-3">
@@ -82,15 +83,15 @@ const WhyLove = () => {
             
                    <ul className="mt-2">
                      <li className="flex items-center gap-x-2 text-sm md:text-lg text-gray-500">
-                       <LuArrowUpRight className="text-xl text-[#5F0623] " />
+                       <GiCheckMark className="text-sm  text-[#5F0623] " />
                        Easy Product Listing
                      </li>
                      <li className="flex items-center gap-x-2 text-sm md:text-lg text-gray-500">
-                       <LuArrowUpRight className="text-xl text-[#5F0623] " />
+                       <GiCheckMark className="text-sm  text-[#5F0623] " />
                        Lowest Cost Shipping
                      </li>
                      <li className="flex items-center gap-x-2 text-sm md:text-lg text-gray-500">
-                       <LuArrowUpRight className="text-xl text-[#5F0623] " />
+                       <GiCheckMark className="text-sm  text-[#5F0623] " />
                        7-Day Payment Cycle from the delivery date
                      </li>
                    </ul>

@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import HowItWorks from './components/HowItWorks';
 import Popular from './components/Popular';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
   <HowItWorks/>
   <Popular/>
   <Contact/>
+  <Footer/>
     </div>
   );
 };
