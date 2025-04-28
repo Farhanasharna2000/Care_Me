@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <header className="w-full bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between md:py-6 md:px-0 p-8">
-        
         {/* Logo */}
         <div className="md:text-2xl text-lg font-bold text-[#5F0623]">
           Care Me
@@ -47,7 +46,10 @@ const Navbar = () => {
           >
             Login
           </button>
-          <button className="text-xs md:text-base md:px-9 py-2 px-2 md:py-1.5 bg-[#5F0623] text-white rounded-md hover:bg-[#350000] transition">
+          <button
+            className="text-xs md:text-base md:px-9 py-2 px-2 md:py-1.5 bg-[#5F0623] text-white rounded-md
+           hover:bg-[#450000] transition"
+          >
             Start Selling
           </button>
 
